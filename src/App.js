@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './components/Header/Header';
 
 class App extends Component {
 
@@ -32,9 +33,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <h1>here we go</h1>
-      <p>open the console</p>
-    </div>
+        <Header/>
+      </div>
     );
   }
 }
