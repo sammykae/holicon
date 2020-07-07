@@ -1,14 +1,15 @@
 import React from 'react';
+import './header.css'
 
 const Header = () => {
     return (
         <header className="header">
-            <div>
-                <img/>logo
+            <div className="logo">
+                
             </div>
             <div className="text">
                 <h1 className="heading">HOLICON</h1>
-                <p className="heading">Anticipate your next holiday</p>
+                <p className="text">Anticipate your next holiday</p>
             </div>
         </header>
     );
