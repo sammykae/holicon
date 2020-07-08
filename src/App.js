@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import SearchBox from './components/Search/SearchBox';
+import Body from './components/Body/Body';
 
 class App extends Component {
   constructor(props) {
@@ -50,8 +51,8 @@ class App extends Component {
     
     return (
       <div className="App">
-        <Header/>
         <SearchBox inputChange={this.inputChange}/>
+        <Body/>
         <Footer/>
       </div>
     );

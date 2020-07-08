@@ -7,4 +7,5 @@
 html {
   font-size: 62.5%;  /*defining the value of 1rem */
   font-family: sans-serif;
+  background-color: rgb(50, 49, 53);
 }

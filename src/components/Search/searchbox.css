@@ -33,9 +33,7 @@ div.foo{
   }
   .letter:before{
     color: #fff;
-    text-shadow: 
-      -1px 0px 1px rgba(255,255,255,.8),
-      1px 0px 1px rgba(0,0,0,.8);
+    text-shadow: .5rem .5rem 1rem rgb(134, 134, 134);
     z-index: 3;
     transform:
       rotateX(0deg)
@@ -68,25 +66,34 @@ div.foo{
       skew(0deg,22deg);
   }
 
+  .search-container .text {
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 1rem;
+  }
+
   .search-box{
-      color:black;
+      color:rgb(255, 255, 255);
       padding:15px;
-      border: none;
-      border-radius: 5px;
-      background-color: rgba(87, 82, 82, 0.11);
+      border: 1px solid white;
+      background-color: rgba(197, 197, 197, 0);
       width: 50%;
       margin-left:25%;
       font-size: 15px;
       font-style: italic;
+      outline: none;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .search-container{
       border-bottom: 3px solid rgb(194, 201, 216);
-      border-top: 3px solid rgb(194, 201, 216);
       padding: 10px;
       box-shadow:5px solid red;
       border-radius: 10px;
+      background-image: linear-gradient(to right, rgb(6, 6, 46), rgb(5, 6, 26));
   }
 
 
