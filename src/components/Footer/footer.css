@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-image: linear-gradient(to right, rgb(15, 15, 68), rgb(3, 7, 51));
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0px;
+    width: 50%;
+    margin-left: 25%;
+}
