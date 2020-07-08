@@ -1,11 +1,11 @@
-* {
+*, *:before, *:after{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 
 html {
   font-size: 62.5%;  /*defining the value of 1rem */
   font-family: sans-serif;
-  background-color: rgb(50, 49, 53);
+  background-color: rgb(37, 41, 49);
 }

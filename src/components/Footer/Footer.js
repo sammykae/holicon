@@ -8,8 +8,7 @@ const Footer = () => {
             
             <div className="text">
                
-                <p>&copy; AshroDev - Innovative IT Solution</p>
-                <p>{date}</p>
+                <p>&copy; Holicon {date} - looks like we need a team name</p>
             </div>
         </footer>
     );
