@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import SearchBox from './components/Search/SearchBox';
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+  
+    this.state = {
+       search:''
+    }
+  }
+  
 
   componentDidMount(){
     this.getHolidays()
@@ -30,10 +40,19 @@ class App extends Component {
     })
   }
 
+  inputChange=(event)=>{
+    this.setState({
+      search:event.target.value
+    })
+  }
+
   render() {
+    
     return (
       <div className="App">
         <Header/>
+        <SearchBox inputChange={this.inputChange}/>
+        <Footer/>
       </div>
     );
   }
