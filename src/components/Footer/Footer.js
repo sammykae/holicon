@@ -8,8 +8,8 @@ const Footer = () => {
             
             <div className="text">
                
-                <p className="text">&copy; AshroDev - Innovative IT Solution</p>
-                <p className="text">{date}</p>
+                <p>&copy; AshroDev - Innovative IT Solution</p>
+                <p>{date}</p>
             </div>
         </footer>
     );
